@@ -1,0 +1,192 @@
+/* Global css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eff;
+}
+.clear-fix{clear: both;}
+
+/* Css untuk header dari sini */
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0,0,0,.8);
+        color: white;					
+        padding:0 10px;
+        box-shadow: 0 2px 4px 7px rgba(0,0,0,.05);
+    }
+    header .logo{
+        float: left;
+        padding-top: 20px;
+        
+    }
+    
+    header .header-menu{
+        display: flex;
+        float: right;
+    }
+    header ul{
+        position: relative;
+        display: flex;
+        top: 20px;
+        right: 5px;
+        list-style-type: none;
+    }
+    header li{
+        padding-right: 5px;
+    }
+    li a{
+        color: white;
+        text-decoration: none;
+
+    }
+    header li:first-child{
+        border-right: 1px solid rgba(80,80,80,.8);
+        height: 20px;
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+    header .login{
+        display: block;
+        background-color: rgba(250,128,114,.7);
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    .login:hover{
+        opacity:1;
+        background-color: lightskyblue;
+        
+    }
+    .fa{
+        color: white;
+    }
+    .fa-bars{
+        display: none;
+    }
+
+/* Css untuk header selesai */
+
+
+/* CSS untuk main body */
+
+    main{
+        margin-top: 58px;
+        /* heigth: 400px; */
+        width: 100%;
+        background-color: white;
+    }
+    .message-wrapper, .pembuka{
+        text-align: center;
+    }
+    .message-wrapper{
+        background-image: url('../images/monas.jpg');
+        background-size: cover;
+        background-position: center;
+        padding-top: 100px;
+        height: 300px;
+        color: #ddd;
+    }
+    .message-wrapper h2{
+        opacity: .7;
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+    .message-wrapper h3{
+        opacity: .7;
+        font-size: 30px;
+        margin-top: 10px;
+        letter-spacing: 3px;
+    }
+    .top-wrapper{
+        text-align: center;
+    }
+    .top-wrapper h3{
+        font-size: 26px;
+    }
+    .content{
+        padding: 40px;
+    }
+    .content p{
+        padding-top: 10px;
+        line-height: 20px;
+    }
+    .content-text h4{
+        font-size: 20px;
+    }
+    .content-wrapper{
+        margin: 10px 30px;
+    }
+    .content-item{
+        display: flex;
+    }
+    .content-item:nth-child(2){
+        flex-direction: row-reverse;
+    }
+    .content-item .content-text{
+        padding: 20px;
+        text-align: justify;
+    }
+    .content-item img{
+        margin: 20px;
+        width: 250px;
+        box-shadow: 1px 1px 7px 3px rgba(0,0,0,.5);
+    }
+/* CSS main selesai */
+
+/* css untuk about us */
+
+#about-us{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(8,0,26);
+    color: white;
+    padding-top: 30px;
+}
+.user-wrapper{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* text-align: center; */
+    color: white;
+    padding: 50px;
+    
+}
+#card-profile{
+    text-align: center;
+    width: 50%;
+    margin-top: 30px;
+}
+#card-profile img{
+    width: 30px;
+}
+#card-profile #comment{
+    width: 300px;
+    background-color: rgba(150,150,150,.6);
+    padding: 20px;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px 2px rgba(250,128,114,.7);
+}
+/* selesai */
+
+/* untuk footer */
+footer{
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}

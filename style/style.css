@@ -76,18 +76,18 @@ body{
         color: #ddd;
     }
     .message-wrapper h2{
-        opacity: .7;
-        font-size: 50px;
+        opacity: .8;
+        font-size: 70px;
         letter-spacing: 5px;
         padding-top: 20vmax;
-        text-shadow: 2px 2px red;
+        /* text-shadow: 2px 2px red; */
     }
     .message-wrapper h3{
-        opacity: .7;
-        font-size: 30px;
+        opacity: .8;
+        font-size: 50px;
         margin-top: 10px;
         letter-spacing: 3px;
-        text-shadow: 2px 2px red;
+        /* text-shadow: 2px 2px red; */
     }
     .top-wrapper{
         text-align: center;

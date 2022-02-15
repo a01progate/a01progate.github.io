@@ -1,3 +1,20 @@
-@media(max-width: 600px){
-
+@media (max-width: 790px) {
+  p span.ubah {
+    padding-left: 0px;
+    display: inline-block;
+  }
+}
+@media (max-width: 760px) {
+  footer p {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .footer img {
+    display: block;
+    float: none;
+    margin: 0px auto;
+    /* text-align: center; */
+    width: 100%;
+  }
 }

@@ -11,4 +11,5 @@ document.body.addEventListener('load',slideShow());
 const menuBar = document.querySelector('.fa-bars');
 menuBar.addEventListener("click", () => {
     document.querySelector('.header-menu ul').classList.toggle('hidden');
+    document.querySelector('header').classList.toggle('black');
 })

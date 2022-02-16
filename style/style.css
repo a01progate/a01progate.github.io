@@ -18,9 +18,11 @@ body{
         width: 100%;
         background-color: rgba(0,0,0,.8);
         color: white;					
-        /* padding: 15px; */
-        /* box-shadow: 0 2px 4px 7px rgba(0,0,0,.05); */
+        box-shadow: 0 2px 4px 7px rgba(0,0,0,.05);
         z-index: 10;
+    }
+    .black{
+        background-color: #000;
     }
     .logo-wrapper{
         float: left;
@@ -41,6 +43,7 @@ body{
         float: right;
     }
     header ul{
+        display: flex;
         /* position: relative; */
         list-style-type: none;
         padding-top: 15px;
@@ -48,7 +51,8 @@ body{
     }
     header li{
         padding-right: 5px;
-        float: left;
+        /* float: left; */
+        /* display: flex; */
         font-size: 20px;
     }
     li a{
@@ -69,11 +73,7 @@ body{
         cursor: pointer;
     }
     .fa-bars::before{
-        color: white;
-        /* float: right; */
         font-size: 25px;
-        /* padding: 21px 10px; */
-    /* Gantikan property display ke none */
         display: none;
     }
 /* Css untuk header selesai */

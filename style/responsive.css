@@ -39,21 +39,23 @@
     width: 100%;
   }
 
+/* About Us */
         .column {
-          
-          width: 100%;
-          display: block;
+        width: 100%;
+        display: block;
       }
-      .card button{
+      .card button {
           font-size: larger;
       }
-      .email {
-        display: block;
-        padding: 20px 0;
-        margin: 0 auto;
-        font-size: 20px;
-        text-align: center;
+      
+      .card .button {
+          margin-top: 15px;
       }
+      
+      .email {
+        display: none;
+      }
+  
   
   .footer img {
     display: block;

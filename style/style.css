@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #eff;
@@ -37,13 +38,11 @@ body{
     }
     header ul{
         position: relative;
-        display: flex;
-        top: 2px;
-        right: 5px;
         list-style-type: none;
     }
     header li{
         padding-right: 5px;
+        float: left;
     }
     li a{
         color: white;
@@ -56,13 +55,19 @@ body{
         margin-right: 10px;
         padding-right: 10px;
     }
+    .fa{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        cursor: pointer;
+    }
 /* Css untuk header selesai */
 
 
 /* CSS untuk main body */
 
     main{
-        width: 100%;
+        /* width: 100%; */
         background-color: white;
     }
     .message-wrapper, .pembuka{
@@ -72,22 +77,22 @@ body{
         background-image: url('../images/monas.jpg');
         background-size: cover;
         background-position: center;
-        height: 50vmax;
+        height: 100vh;
         color: #ddd;
     }
     .message-wrapper h2{
-        opacity: .8;
+        opacity: .6;
         font-size: 70px;
         letter-spacing: 5px;
         padding-top: 20vmax;
-        /* text-shadow: 2px 2px red; */
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
     }
     .message-wrapper h3{
-        opacity: .8;
+        opacity: .6;
         font-size: 50px;
         margin-top: 10px;
         letter-spacing: 3px;
-        /* text-shadow: 2px 2px red; */
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
     }
     .top-wrapper{
         text-align: center;
@@ -97,39 +102,39 @@ body{
     }
     .content{
         padding: 40px;
+        width: 100%;
     }
     .content p{
         padding-top: 10px;
         line-height: 20px;
     }
-    .content-text h4{
-        font-size: 20px;
-    }
-    .content-wrapper{
-        margin: 10px 30px;
-    }
-    .content-item{
-        display: flex;
-        padding: 40px 0;
-    }
-    .content-item:nth-child(2){
-        flex-direction: row-reverse;
-    }
-
-    .content-item:nth-child(4) {
-        flex-direction: row-reverse;
-    }
-    .content-item .content-text{
+    .content-text {
         padding: 20px;
         text-align: justify;
     }
+<<<<<<< HEAD
 
     .content-item .content-text li {
         margin-left: 25px;
+=======
+    .content-text h4{
+        font-size: 20px;
+>>>>>>> ce1ef48b3bde497fc89e18f72a9a00137afa1c8a
     }
+    
+    .content-item{
+        display: flex;
+        max-width: 100%;
+        padding-top: 10px;
+    }
+    .reverse{
+        flex-direction: row-reverse;
+    }
+    
     .content-item img{
+        border-radius: 3px;
         margin: 20px;
-        width: 250px;
+        width: 25%;
         box-shadow: 1px 1px 7px 3px rgba(0,0,0,.5);
     }
 /* CSS main selesai */
@@ -137,10 +142,8 @@ body{
 /* css untuk about us */
 .column {
     display: block;
-    align-items: center;
-    justify-content: center; 
-    width: 33.3%;
-    margin-bottom: 16px;
+    margin: 0 auto 16px auto;
+    width: 100%;
     padding: 0 8px;
   }
   
@@ -151,9 +154,10 @@ body{
     padding-bottom: 40px;
     margin-bottom: 40px;
     border-radius: 30px;
+    overflow: hidden;
   }
   
-  .about-section {
+  #about-section {
     margin: 30px 0;
     padding: 50px;
     text-align: center;
@@ -212,13 +216,13 @@ body{
     text-align: center;
   }
 
-@media all and (max-width:1000px) {
+/* @media all and (max-width:1000px) {
 
     .column {
-        text
-          width: 100%;
-          display: block;
-        }
+        
+        width: 100%;
+        display: block;
+    }
 
     .card button{
         font-size: larger;
@@ -228,14 +232,14 @@ body{
 
 @media all and (max-width:670px) {
     .column {
-    text
+
       width: 100%;
       display: block;
     }
     .card button {
         font-size: larger;
     }
-}
+} */ 
 /* selesai */
 
 /* untuk footer */

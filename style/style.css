@@ -110,9 +110,13 @@ body{
     }
     .content-item{
         display: flex;
-        padding: 70px 0;
+        padding: 40px 0;
     }
     .content-item:nth-child(2){
+        flex-direction: row-reverse;
+    }
+
+    .content-item:nth-child(4) {
         flex-direction: row-reverse;
     }
     .content-item .content-text{

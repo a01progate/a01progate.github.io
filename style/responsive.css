@@ -2,6 +2,13 @@
   .hidden{
     display: none;
   }
+<<<<<<< HEAD
+=======
+  .fa-bars::before{
+    display: block;
+  }
+
+>>>>>>> bdbceb6e7f2b766145535e26ced7faaba7d4c34f
   .top-wrapper{
     padding-bottom: 10px;
   }

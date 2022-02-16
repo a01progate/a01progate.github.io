@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #eff;
@@ -103,9 +104,10 @@ body{
         padding-top: 10px;
         line-height: 20px;
     }
-    /* .content-text {
-        width: 100%;
-    } */
+    .content-text {
+        padding: 20px;
+        text-align: justify;
+    }
     .content-text h4{
         font-size: 20px;
     }
@@ -115,16 +117,14 @@ body{
         max-width: 100%;
         padding-top: 10px;
     }
-    .content-item:nth-child(2){
+    .reverse{
         flex-direction: row-reverse;
     }
-    /* .content-item .content-text{
-        padding: 20px;
-        text-align: justify;
-    } */
+    
     .content-item img{
+        border-radius: 3px;
         margin: 20px;
-        width: 250px;
+        width: 25%;
         box-shadow: 1px 1px 7px 3px rgba(0,0,0,.5);
     }
 /* CSS main selesai */
@@ -147,7 +147,7 @@ body{
     overflow: hidden;
   }
   
-  .about-section {
+  #about-section {
     margin: 30px 0;
     padding: 50px;
     text-align: center;
@@ -206,10 +206,10 @@ body{
     text-align: center;
   }
 
-@media all and (max-width:1000px) {
+/* @media all and (max-width:1000px) {
 
     .column {
-        /* text */
+        
         width: 100%;
         display: block;
     }
@@ -222,14 +222,14 @@ body{
 
 @media all and (max-width:670px) {
     .column {
-    /* text */
+
       width: 100%;
       display: block;
     }
     .card button {
         font-size: larger;
     }
-}
+} */ 
 /* selesai */
 
 /* untuk footer */

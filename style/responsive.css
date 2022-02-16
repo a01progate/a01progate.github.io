@@ -1,14 +1,40 @@
 @media (max-width: 790px) {
-  p span.ubah {
+  .top-wrapper{
+    padding-bottom: 10px;
+  }
+  .content-wrapper{
+    padding-top: 10px;
+  }
+  .content-item{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 15px;
+  }
+  .content-text{
+    text-align: center;
+  }
+  .content-item img{
+    width: 50%;
+    margin: auto;
+  }
+  p span {
     padding-left: 0px;
     display: inline-block;
+    text-align: left;
   }
-  .message-wrapper h2,
-  h3 {
-    font-size: 32px;
+  .content-text ul{
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 15px;
   }
-}
-@media (max-width: 760px) {
+  .message-wrapper h2{
+    font-size: 65px;
+    padding-top: 210px;
+  }
+  .message-wrapper h3 {
+    font-size: 50px;
+    word-spacing: 5px;
+  }
   footer p {
     float: none;
     text-align: center;

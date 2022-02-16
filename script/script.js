@@ -8,3 +8,7 @@ function slideShow(){
     setTimeout(slideShow, 5000);
 }
 document.body.addEventListener('load',slideShow());
+const menuBar = document.querySelector('.fa-bars');
+menuBar.addEventListener("click", () => {
+    document.querySelector('.header-menu ul').classList.toggle('hidden');
+})

@@ -2,6 +2,10 @@
   .hidden{
     display: none;
   }
+  .fa-bars::before{
+    display: block;
+  }
+
   .top-wrapper{
     padding-bottom: 10px;
   }

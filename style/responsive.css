@@ -3,6 +3,10 @@
     padding-left: 0px;
     display: inline-block;
   }
+  .message-wrapper h2,
+  h3 {
+    font-size: 32px;
+  }
 }
 @media (max-width: 760px) {
   footer p {
@@ -10,6 +14,7 @@
     text-align: center;
     width: 100%;
   }
+
   .footer img {
     display: block;
     float: none;

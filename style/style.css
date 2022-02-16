@@ -123,6 +123,10 @@ body{
         padding: 20px;
         text-align: justify;
     }
+
+    .content-item .content-text li {
+        margin-left: 20px;
+    }
     .content-item img{
         margin: 20px;
         width: 250px;

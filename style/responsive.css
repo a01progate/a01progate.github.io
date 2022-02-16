@@ -9,6 +9,9 @@
   }
 }
 @media (max-width: 760px) {
+  .content {
+    width: 100%;
+  }
   footer p {
     float: none;
     text-align: center;

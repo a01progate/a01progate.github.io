@@ -3,10 +3,6 @@
     padding-left: 0px;
     display: inline-block;
   }
-  .message-wrapper h2,
-  h3 {
-    font-size: 32px;
-  }
 }
 @media (max-width: 760px) {
   .content {

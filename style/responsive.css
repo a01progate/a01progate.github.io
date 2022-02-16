@@ -26,11 +26,14 @@
     text-align: left;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 @media (max-width: 760px) {
   .content {
     width: 100%;
 =======
+=======
+>>>>>>> bdbceb6e7f2b766145535e26ced7faaba7d4c34f
   .content-text ul{
     text-align: left;
     padding-left: 10%;
@@ -43,7 +46,10 @@
   .message-wrapper h3 {
     font-size: 30px;
     word-spacing: 5px;
+<<<<<<< HEAD
 >>>>>>> ce1ef48b3bde497fc89e18f72a9a00137afa1c8a
+=======
+>>>>>>> bdbceb6e7f2b766145535e26ced7faaba7d4c34f
   }
   footer p {
     float: none;

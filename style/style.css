@@ -14,35 +14,49 @@ body{
     header{
         position: fixed;
         top: 0;
-        left: 0;
+        height: 60px;
         width: 100%;
         background-color: rgba(0,0,0,.8);
         color: white;					
-        padding: 15px;
-        box-shadow: 0 2px 4px 7px rgba(0,0,0,.05);
+        /* padding: 15px; */
+        /* box-shadow: 0 2px 4px 7px rgba(0,0,0,.05); */
         z-index: 10;
     }
-    header .logo{
+    .logo-wrapper{
         float: left;
-        padding: 5px 3px 5px 0;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    header .logo{
         width: 15px;
     }
-    /* .header span{
+    .logo-wrapper div{
+        display: inline-block;
+    }
+    .header span{
         position: relative;
-        display: block;
-        top: 40px;
-    } */
+        top: 20px;
+    }
     header .header-menu{
-        display: flex;
         float: right;
     }
     header ul{
+<<<<<<< HEAD
         position: relative;
+=======
+        /* position: relative; */
+>>>>>>> bdbceb6e7f2b766145535e26ced7faaba7d4c34f
         list-style-type: none;
+        padding-top: 15px;
+        padding-right: 10px;
     }
     header li{
         padding-right: 5px;
         float: left;
+<<<<<<< HEAD
+=======
+        font-size: 20px;
+>>>>>>> bdbceb6e7f2b766145535e26ced7faaba7d4c34f
     }
     li a{
         color: white;
@@ -55,12 +69,29 @@ body{
         margin-right: 10px;
         padding-right: 10px;
     }
+<<<<<<< HEAD
     .fa{
         position: absolute;
         top: 10px;
         right: 15px;
         cursor: pointer;
     }
+=======
+    .menu-icon{
+        float: right;
+        padding-top: 15px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+    .fa-bars::before{
+        color: white;
+        /* float: right; */
+        font-size: 25px;
+        /* padding: 21px 10px; */
+    /* Gantikan property display ke none */
+        display: none;
+    }
+>>>>>>> bdbceb6e7f2b766145535e26ced7faaba7d4c34f
 /* Css untuk header selesai */
 
 
@@ -113,6 +144,7 @@ body{
         text-align: justify;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     .content-item .content-text li {
         margin-left: 25px;
@@ -120,6 +152,10 @@ body{
     .content-text h4{
         font-size: 20px;
 >>>>>>> ce1ef48b3bde497fc89e18f72a9a00137afa1c8a
+=======
+    .content-text h4{
+        font-size: 20px;
+>>>>>>> bdbceb6e7f2b766145535e26ced7faaba7d4c34f
     }
     
     .content-item{

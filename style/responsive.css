@@ -1,29 +1,22 @@
 @media (max-width: 790px) {
-  .hidden{
+  .hidden {
     display: none;
   }
-<<<<<<< HEAD
-=======
-  .fa-bars::before{
-    display: block;
-  }
-
->>>>>>> bdbceb6e7f2b766145535e26ced7faaba7d4c34f
-  .top-wrapper{
+  .top-wrapper {
     padding-bottom: 10px;
   }
-  .content-wrapper{
+  .content-wrapper {
     padding-top: 10px;
   }
-  .content-item{
+  .content-item {
     display: flex;
     flex-direction: column-reverse;
     padding-top: 15px;
   }
-  .content-text{
+  .content-text {
     text-align: center;
   }
-  .content-item img{
+  .content-item img {
     width: 50%;
     margin: auto;
   }
@@ -32,31 +25,10 @@
     display: inline-block;
     text-align: left;
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 @media (max-width: 760px) {
   .content {
     width: 100%;
-=======
-=======
->>>>>>> bdbceb6e7f2b766145535e26ced7faaba7d4c34f
-  .content-text ul{
-    text-align: left;
-    padding-left: 10%;
-    padding-top: 15px;
-  }
-  .message-wrapper h2{
-    font-size: 65px;
-    padding-top: 210px;
-  }
-  .message-wrapper h3 {
-    font-size: 30px;
-    word-spacing: 5px;
-<<<<<<< HEAD
->>>>>>> ce1ef48b3bde497fc89e18f72a9a00137afa1c8a
-=======
->>>>>>> bdbceb6e7f2b766145535e26ced7faaba7d4c34f
   }
   footer p {
     float: none;

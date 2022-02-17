@@ -161,7 +161,7 @@ main {
     position: relative;
     display: block;
     margin: auto;
-    width: 100%;
+    width: 50%;
     padding: 0 8px;
     
   }
@@ -228,6 +228,9 @@ main {
   .card h2 {
     text-align: center;
   }
+  .card img{
+    width: 100%;
+  }
   
   .justify {
     margin-top: 10px;
@@ -236,11 +239,6 @@ main {
     text-align: justify;
   }
   
-  .email {
-    width: 100%;
-    margin: 10px 0;
-    text-align: center;
-  }
 /* selesai */
 
 /* untuk footer */

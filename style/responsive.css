@@ -78,9 +78,10 @@
   }
   .column {
     overflow: hidden;
-    /* width: 100%; */
+    width: 75%;
     /* display: block; */
   }
+  
   .card .container{
     text-align: center;
   }

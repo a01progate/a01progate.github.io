@@ -78,7 +78,7 @@
   }
   .column {
     overflow: hidden;
-    width: 75%;
+    width: 90%;
     /* display: block; */
   }
   
@@ -88,11 +88,17 @@
   .card button{
     font-size: larger;
   }
-  .footer img {
-    display: block;
+  footer{
+    text-align: center;
+  }
+  footer img{
+    width: 150px;
     float: none;
-    margin: 0px auto;
-    /* text-align: center; */
-    width: 100%;
+  }
+  .footer-txt{
+    padding-right: 30px;
+  }
+  footer p{
+    padding-top: 10px;
   }
 }

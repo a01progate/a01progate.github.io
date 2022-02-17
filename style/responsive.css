@@ -31,9 +31,22 @@
   .fa-bars::before{
     display: block;
   }
-
+  .message-wrapper h2{
+    font-size: 65px;
+    padding-top: 185px;
+  }
+  .message-wrapper h3{
+    font-size: 35px;
+    word-spacing: 15px;
+  }
   .top-wrapper{
     padding-bottom: 10px;
+  }
+  .top-wrapper h3{
+    font-size: 35px;
+  }
+  .content p{
+    font-size: 14px;
   }
   .content-wrapper {
     padding-top: 10px;
@@ -48,6 +61,9 @@
     font-size: 14px;
     line-height: 23px;
   }
+  .content h4{
+    font-size: 25px;
+  }
   .content-item img {
     width: 50%;
     margin: auto;
@@ -55,55 +71,22 @@
   .content-text ul{
     text-align: left;
   }
-}
-
-/* about us */
-      .column {
+  /* about us */
+  .column {
           
-          width: 100%;
-          display: block;
-      }
-      .card button{
-          font-size: larger;
-      }
-      .email {
-        display: block;
-        padding: 20px 0;
-        margin: 0 auto;
-        font-size: 20px;
-        text-align: center;
-      }
-
-
-
-@media (max-width: 760px) {
-  .content {
     width: 100%;
+    display: block;
+}
+  .card button{
+    font-size: larger;
   }
-  footer p {
-    float: none;
+  .email {
+    display: block;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 20px;
     text-align: center;
-    width: 100%;
   }
-
-/* About Us */
-      .column {
-        width: 100%;
-        display: block;
-      }
-      .card button {
-          font-size: larger;
-      }
-      
-      .card .button {
-          margin-top: 15px;
-      }
-
-      .email {
-        display: none;
-      }
-/*   close about us */
-  
   .footer img {
     display: block;
     float: none;

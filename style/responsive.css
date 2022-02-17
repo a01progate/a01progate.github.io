@@ -73,10 +73,11 @@
   }
   /* about us */
   .team-wrapper{
-    width: 100%;
+    /* width: 100%; */
     padding-bottom: 20px;
   }
   .column {
+    overflow: hidden;
     /* width: 100%; */
     /* display: block; */
   }

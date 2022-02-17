@@ -160,7 +160,7 @@ main {
   .column {
     position: relative;
     display: block;
-    margin: 0 auto 16px auto;
+    margin: auto;
     width: 100%;
     padding: 0 8px;
     
@@ -168,15 +168,16 @@ main {
   .team-wrapper{
     background-color: #555;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
   .card {
-    width: 50%;
+    width: 75%;
     background-color: aliceblue;
-    box-shadow: 0 4px 8px 0 rgba(206, 241, 6, 0.541);
+    box-shadow: 0 4px 8px 0 rgba(136, 4, 4, 0.432);
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     margin-bottom: 40px;
-    border-radius: 30px;
+    border-radius: 20px;
     overflow: hidden;
     /* animation: glow 2s alternate; */
   }
@@ -189,7 +190,7 @@ main {
   }
   
   .container {
-    padding: 0 16px;
+    padding: 0 40px;
   }
   
   .container::after,
@@ -281,15 +282,10 @@ p span.ubah {
 
 @keyframes fade{
   0%{
-    height: 15px;
+    /* height: 15px;
     width: 15px;
-    overflow: hidden;
+    overflow: hidden; */
     opacity: 0;
-  }
-  25%{
-    opacity: .3;
-    height: 30px;
-    width: 30px;
   }
   100%{
     width: 100%;

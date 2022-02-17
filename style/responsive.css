@@ -90,13 +90,21 @@
   }
   footer{
     text-align: center;
+    /* width: 100%; */
+  }
+  .footer-wrapper{
+    max-width: 50%;
+    margin: auto;
   }
   footer img{
     width: 150px;
     float: none;
+    margin: auto;
   }
   .footer-txt{
-    padding-right: 30px;
+    /* padding-right: 30px; */
+    float: none;
+    margin: auto;
   }
   footer p{
     padding-top: 10px;

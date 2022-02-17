@@ -95,6 +95,7 @@ main {
   background-position: center;
   height: 100vh;
   color: #ddd;
+  animation: fade 1s forwards;
 }
 .message-wrapper h2 {
   opacity: 0.6;
@@ -157,26 +158,33 @@ main {
 
 /* css untuk about us */
   .column {
+    position: relative;
     display: block;
     margin: 0 auto 16px auto;
     width: 100%;
     padding: 0 8px;
+    
   }
-  
+  .team-wrapper{
+    background-color: #555;
+    padding-top: 20px;
+  }
   .card {
     width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(206, 241, 6, 0.541);
     margin: 0 auto;
     padding-bottom: 40px;
     margin-bottom: 40px;
     border-radius: 30px;
     overflow: hidden;
+    /* animation: glow 2s alternate; */
   }
   
   #about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
+    background-color: black;
     color: white;
   }
   
@@ -198,6 +206,7 @@ main {
   }
   
   .button {
+    margin-top: 20px;
     font-size: large;
     border: none;
     outline: 0;
@@ -268,4 +277,22 @@ footer div.clear {
 p span.ubah {
   padding-left: 20px;
   display: inline-block;
+}
+
+@keyframes fade{
+  0%{
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+    opacity: 0;
+  }
+  25%{
+    opacity: .3;
+    height: 30px;
+    width: 30px;
+  }
+  100%{
+    width: 100%;
+    opacity: 1;
+  }
 }

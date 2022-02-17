@@ -72,20 +72,19 @@
     text-align: left;
   }
   /* about us */
-  .column {
-          
+  .team-wrapper{
     width: 100%;
-    display: block;
-}
+    padding-bottom: 20px;
+  }
+  .column {
+    /* width: 100%; */
+    /* display: block; */
+  }
+  .card .container{
+    text-align: center;
+  }
   .card button{
     font-size: larger;
-  }
-  .email {
-    display: block;
-    padding: 20px 0;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: center;
   }
   .footer img {
     display: block;

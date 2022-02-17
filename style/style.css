@@ -31,36 +31,38 @@ body {
         float: left;
         padding-top: 20px;
         padding-left: 10px;
-    }
-    header .logo{
+      }
+      .logo-txt{
+        font-family: 'Hind Siliguri';
+
+      }
+      header .logo{
         width: 15px;
-    }
-    .logo-wrapper div{
+      }
+      .logo-wrapper div{
         display: inline-block;
-    }
-    .header span{
+      }
+      .header span{
         position: relative;
         top: 20px;
     }
     header .header-menu{
-        float: right;
+      float: right;
     }
     header ul{
-        display: flex;
-        /* position: relative; */
-        list-style-type: none;
-        padding-top: 15px;
-        padding-right: 10px;
+      display: flex;
+      list-style-type: none;
+      padding-top: 15px;
+      padding-right: 10px;
     }
     header li{
-        padding-right: 5px;
-        /* float: left; */
-        /* display: flex; */
-        font-size: 20px;
+      padding-right: 5px;
+      font-size: 20px;
     }
     li a{
-        color: white;
-        text-decoration: none;
+      font-family: 'Hind Siliguri';
+      color: white;
+      text-decoration: none;
 
     }
     header li:first-child{
@@ -189,7 +191,6 @@ main {
   }
   
   #about-section {
-    
     padding: 50px;
     text-align: center;
     background-color: black;

@@ -66,14 +66,20 @@
   }
   .content-item img {
     width: 50%;
-    margin: auto;
+    margin: 20px auto;
   }
-  .content-text ul{
+  .content-item .list-img{
+    position: static;
+  }
+  .content-text ul, .content-text ol{
     text-align: left;
+  }
+  .content-text h5{
+    font-size: 17px;
+    padding-top: 20px;
   }
   /* about us */
   .team-wrapper{
-    /* width: 100%; */
     padding-bottom: 20px;
   }
   .column {

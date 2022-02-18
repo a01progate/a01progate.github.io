@@ -105,14 +105,14 @@ main {
   font-weight: 600;
 }
 .message-wrapper h2 {
-  opacity: 0.6;
+  opacity: 0.8;
   font-size: 70px;
   letter-spacing: 10px;
   padding-top: 20vmax;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
 }
 .message-wrapper h3 {
-  opacity: 0.6;
+  opacity: 0.8;
   font-size: 50px;
   margin-top: 10px;
   letter-spacing: 3px;
@@ -157,9 +157,15 @@ main {
 
 .content-item img {
   border-radius: 3px;
+  position: relative;
+  top: 20px;
   margin: 20px;
   width: 25%;
+  height: 25vh;
   box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.5);
+}
+.content-item .list-img{
+  top: 250px;
 }
 /* CSS main selesai */
 
